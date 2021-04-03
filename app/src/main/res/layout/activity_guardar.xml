@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".crud.GuardarActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:hint="Nombre"/>
+        <EditText
+            android:id="@+id/editTextPrecio"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:hint="Precio"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/editTextCategoria"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:hint="Categoria"/>
+        <EditText
+            android:id="@+id/editTextCantidad"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:hint="Cantidad"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/teal_200"
+            android:text="GUARDAR"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lv_datosProductos"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="20dp"
+                android:background="@color/design_default_color_background">
+            </ListView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnBuscar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@color/purple_500"
+                android:text="BUSCAR"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

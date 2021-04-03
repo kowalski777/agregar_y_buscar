@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:backgroundTint="@color/purple_500"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_nombre"
+                android:textColor="@color/teal_200"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_uid"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:text="ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_precio"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:text="Precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_cantidad"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:text="Cantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_categoria"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:text="Categoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
